@@ -1,0 +1,12 @@
+{
+  "versionCode": 7,
+  "versionName": "0.5.1",
+  "apkUrl": "https://github.com/Sp0nge-bob/xray-probe-releases/releases/download/v0.5.1/XrayProbe-0.5.1.apk",
+  "latestApkUrl": "https://github.com/Sp0nge-bob/xray-probe-releases/releases/latest/download/XrayProbe-latest.apk",
+  "apkName": "XrayProbe-0.5.1.apk",
+  "sha256": "a3b760c80a7c78531eff36fa5ca76ff1bc6832b6f229c6237aafb79efca0ff9d",
+  "size": 13439727,
+  "minSdk": 26,
+  "changelog": "Релиз 0.5.1:\n• Послойная дифференциальная диагностика VLESS/WS/XHTTP\n• Интеграция с Termux через Android RUN_COMMAND\n• Поддержка прямого обновления из приложения\n• Оптимизация интерфейса",
+  "publishedAt": "2026-11-06T18:23:41Z"
+}
