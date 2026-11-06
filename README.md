@@ -1,38 +1,35 @@
 # Xray Probe Releases
 
-Официальный репозиторий публичных релизов и обновлений Android-приложения **Xray Probe** (компонент экосистемы CaelixFlow).
+Публичные APK и манифест самообновления Xray Probe / CaelixFlow.
 
----
+## Последняя версия: 0.5.4
 
-## Предварительный выпуск: v0.5.3
+- [Скачать XrayProbe-0.5.4.apk](https://github.com/Sp0nge-bob/xray-probe-releases/releases/download/v0.5.4/XrayProbe-0.5.4.apk)
+- [Последний APK](https://github.com/Sp0nge-bob/xray-probe-releases/releases/latest/download/XrayProbe-latest.apk)
+- [Описание релиза](https://github.com/Sp0nge-bob/xray-probe-releases/releases/tag/v0.5.4)
+- [Манифест самообновления](https://raw.githubusercontent.com/Sp0nge-bob/xray-probe-releases/main/version.json)
 
-- [APK 0.5.3](https://github.com/Sp0nge-bob/xray-probe-releases/releases/download/v0.5.3/XrayProbe-0.5.3.apk) · [описание и ограничения](https://github.com/Sp0nge-bob/xray-probe-releases/releases/tag/v0.5.3)
-- Оформленный выбор последних 10 официальных релизов Xray; idle-only смена ядра; прогресс загрузки ядра/APK; увеличенные тайм-ауты; обязательные SHA-256 проверки.
-- SHA-256 APK: `4f46ef9de94ff17fa2045d6355b8231714700000b7dd2a22ebbf74672ed26237` (13 464 303 байт).
-- **Подпись отличается от публичной 0.5.2: обновление поверх неё невозможно. Не удаляйте приложение ради обхода ошибки.** Нужен исходный ключ 0.5.2 либо отдельно согласованный план. Сертификат этой сборки: `e7a265900466b423ff93e97fd35324629621c76268bb884510b55e3be57b2a27`.
-- До разрешения signing compatibility стабильный `version.json` остаётся на 0.5.2. Это prerelease для отдельной приёмки, не подтверждение проверки на устройстве.
+Android 8.0+ (API 26), ARM64. versionCode **10**, размер **13 464 303 байт**.
 
----
+SHA-256 APK: `93bad2199e7b7ea8105a9b1045a70ad13b48b18de5710cb8c7468f7fecec1b0f`.
 
-## 📥 Последняя стабильная версия: v0.5.2
+## Возможности
 
-- **Файл APK**: [XrayProbe-0.5.2.apk](https://github.com/Sp0nge-bob/xray-probe-releases/releases/download/v0.5.2/XrayProbe-0.5.2.apk)
-- **Прямая ссылка на последний релиз**: [XrayProbe-latest.apk](https://github.com/Sp0nge-bob/xray-probe-releases/releases/latest/download/XrayProbe-latest.apk)
-- **Манифест обновлений**: [`version.json`](https://raw.githubusercontent.com/Sp0nge-bob/xray-probe-releases/main/version.json)
-- **Размер**: ~12.8 МБ (`13 456 111` байт)
-- **Минимальная версия Android**: 8.0 (API 26), ARM64
-- **SHA-256**: `cf1760ff94dca21ac5f5f7c19574a04e4935a11fbdf1401bbd4e671e94ac66b2`
+- Оформленный выбор последних 10 официальных релизов Xray-core, активное ядро и установленные версии; без ручного ввода версии в UI.
+- Смена/загрузка ядра только в простое, общий admission gate UI/API.
+- Понятный прогресс ядра и APK: подключение, МБ, проценты, проверка SHA-256.
+- Обязательная SHA-256 проверка ядра из официального `.zip.dgst` до распаковки и обязательная проверка APK.
+- Увеличенные тайм-ауты GitHub/CLI.
+- Встроенное Xray-core **26.9.9**, диагностический Termux loopback API, раздельные UID Probe/Termux без изменения Happ.
 
----
+## Единый ключ подписи
 
-## 🚀 Возможности
-- **Послойная дифференциальная диагностика L1–L9**: DNS $\rightarrow$ TCP $\rightarrow$ TLS $\rightarrow$ WAF/CDN $\rightarrow$ Nginx $\rightarrow$ WS/XHTTP $\rightarrow$ VLESS.
-- **Двухконтурное разделение UID**: прямое сравнение выходного IP приложения (вне VPN) и Termux (внутри Happ).
-- **Динамическое ядро Xray-core**: переключение между встроенным ядром v26.9.9 и скачивание любых версий Xray ARM64 с официального GitHub XTLS/Xray-core на лету.
-- **Встроенное самообновление**: проверка актуальной версии и обновление в один клик через `ProbeFileProvider` без сторонних маркетов.
-- **Termux Loopback API (127.0.0.1:18769)**: управление тестами, ядром (`/xray/*`) и обновлением (`/update/*`) через CLI.
+0.5.4 в приватном и публичном репозиториях — один и тот же проверенный APK из GitHub Actions, подписанный предоставленным ключом ПК.
 
----
+SHA-256 сертификата: `4774185f2c532b0cf5b7d6825f648530c8c24829a5fab6ed4c32d3d7ff402c21`.
 
-## 🔒 Безопасность
-Проверяйте SHA-256 APK и совместимость сертификата с установленной сборкой. Публичный APK 0.5.2 имеет сертификат `5ee1b3a71544ea8a33bcdcbd64b48ffa69a002d883852dc1b4cba7ddc9b0ed6c`; prerelease 0.5.3 использует иной существующий локальный сертификат (см. выше). Удаление приложения сбрасывает данные и не является безопасным способом обхода signing mismatch.
+Все дальнейшие сборки ПК/Termux/CI должны использовать этот ключ. Старые APK с другими сертификатами не совместимы для обновления поверх; установку выполняет пользователь. Ключ и пароль не публикуются.
+
+## Проверки
+
+39 Node tests + Java host tests, APK v2/v3 signatures, privacy scans без находок. Это не заменяет проверку интерфейса и загрузки/переключения ядра на Android.

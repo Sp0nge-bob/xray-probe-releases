@@ -1,12 +1,12 @@
 {
-  "versionCode": 8,
-  "versionName": "0.5.2",
-  "apkUrl": "https://github.com/Sp0nge-bob/xray-probe-releases/releases/download/v0.5.2/XrayProbe-0.5.2.apk",
+  "versionCode": 10,
+  "versionName": "0.5.4",
+  "apkUrl": "https://github.com/Sp0nge-bob/xray-probe-releases/releases/download/v0.5.4/XrayProbe-0.5.4.apk",
   "latestApkUrl": "https://github.com/Sp0nge-bob/xray-probe-releases/releases/latest/download/XrayProbe-latest.apk",
-  "apkName": "XrayProbe-0.5.2.apk",
-  "sha256": "cf1760ff94dca21ac5f5f7c19574a04e4935a11fbdf1401bbd4e671e94ac66b2",
-  "size": 13456111,
+  "apkName": "XrayProbe-0.5.4.apk",
+  "sha256": "93bad2199e7b7ea8105a9b1045a70ad13b48b18de5710cb8c7468f7fecec1b0f",
+  "size": 13464303,
   "minSdk": 26,
-  "changelog": "Релиз 0.5.2:\n• Динамическое управление и загрузка любых версий Xray-core ARM64\n• Встроенное самообновление приложения в 1 клик\n• Расширение Termux Loopback API (/xray/*, /update/*) и CLI команд\n• Упрощённый нативный интерфейс и оптимизация",
-  "publishedAt": "2026-11-06T19:39:08Z"
+  "changelog": "Релиз 0.5.4 приложения Xray Probe",
+  "publishedAt": "2026-11-06T20:59:08Z"
 }
