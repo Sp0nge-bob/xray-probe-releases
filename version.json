@@ -1,12 +1,12 @@
 {
-  "versionCode": 18,
-  "versionName": "0.7.5",
-  "apkUrl": "https://github.com/Sp0nge-bob/xray-probe-releases/releases/download/v0.7.5/XrayProbe-0.7.5.apk",
+  "versionCode": 19,
+  "versionName": "0.7.6",
+  "apkUrl": "https://github.com/Sp0nge-bob/xray-probe-releases/releases/download/v0.7.6/XrayProbe-0.7.6.apk",
   "latestApkUrl": "https://github.com/Sp0nge-bob/xray-probe-releases/releases/latest/download/XrayProbe-latest.apk",
-  "apkName": "XrayProbe-0.7.5.apk",
-  "sha256": "40aa918fcfc894db6c809513476caab611fc07158ce2130f5f7b25798a097a3c",
+  "apkName": "XrayProbe-0.7.6.apk",
+  "sha256": "abed41c502b4bcbf6b65f7c69981119b0d8abc48df7ba09d617b56e24455e00c",
   "size": 14304082,
   "minSdk": 26,
-  "changelog": "Релиз 0.7.5 приложения Xray Probe",
-  "publishedAt": "2026-11-07T18:38:15Z"
+  "changelog": "Релиз 0.7.6: динамическое отображение версии в интерфейсе и эталонный тест QUIC RFC 9000",
+  "publishedAt": "2026-11-07T19:04:42Z"
 }
