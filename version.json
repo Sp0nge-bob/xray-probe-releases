@@ -1,12 +1,12 @@
 {
-  "versionCode": 14,
-  "versionName": "0.7.1",
-  "apkUrl": "https://github.com/Sp0nge-bob/xray-probe-releases/releases/download/v0.7.1/XrayProbe-0.7.1.apk",
+  "versionCode": 15,
+  "versionName": "0.7.2",
+  "apkUrl": "https://github.com/Sp0nge-bob/xray-probe-releases/releases/download/v0.7.2/XrayProbe-0.7.2.apk",
   "latestApkUrl": "https://github.com/Sp0nge-bob/xray-probe-releases/releases/latest/download/XrayProbe-latest.apk",
-  "apkName": "XrayProbe-0.7.1.apk",
-  "sha256": "c681a691684e8ae6286ff0c6f3e9cc53ac0688f267e9bcfd5a2ed914dd8d4dd7",
-  "size": 14299986,
+  "apkName": "XrayProbe-0.7.2.apk",
+  "sha256": "e3d20d5d7692b2492e76c2277fa7653464f9c18880b6b143a77fb78d916afc8b",
+  "size": 14304082,
   "minSdk": 26,
-  "changelog": "Релиз 0.7.1: хотфикс краша при запуске на Android (устранено дублирование child view в табе подписок)",
-  "publishedAt": "2026-11-07T15:43:41Z"
+  "changelog": "Релиз 0.7.2 приложения Xray Probe",
+  "publishedAt": "2026-11-07T16:23:48Z"
 }
