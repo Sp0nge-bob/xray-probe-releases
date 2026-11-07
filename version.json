@@ -1,12 +1,12 @@
 {
-  "versionCode": 16,
-  "versionName": "0.7.3",
-  "apkUrl": "https://github.com/Sp0nge-bob/xray-probe-releases/releases/download/v0.7.3/XrayProbe-0.7.3.apk",
+  "versionCode": 17,
+  "versionName": "0.7.4",
+  "apkUrl": "https://github.com/Sp0nge-bob/xray-probe-releases/releases/download/v0.7.4/XrayProbe-0.7.4.apk",
   "latestApkUrl": "https://github.com/Sp0nge-bob/xray-probe-releases/releases/latest/download/XrayProbe-latest.apk",
-  "apkName": "XrayProbe-0.7.3.apk",
-  "sha256": "9b1127bd3dc0f4cc235d76e44bef332e0d0310cb3f651e3ef01e006466bfa62e",
+  "apkName": "XrayProbe-0.7.4.apk",
+  "sha256": "4d2e6b5ffdee155542ddf100b20aa9a6ef5f00a6c972f72b647d7e6115901324",
   "size": 14304082,
   "minSdk": 26,
-  "changelog": "Релиз 0.7.3 приложения Xray Probe",
-  "publishedAt": "2026-11-07T17:24:06Z"
+  "changelog": "Релиз 0.7.4 приложения Xray Probe",
+  "publishedAt": "2026-11-07T17:51:21Z"
 }
